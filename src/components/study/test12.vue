@@ -7,6 +7,7 @@
 
     <div class="tooltip" v-on:click.stop v-if="show_tooltip">
 
+
       <!-- v-model 绑定了文本域的内容
        在文本域内容改变时，对应的变量也会实时改变  -->
       <input type="text" v-model="text_content" />
